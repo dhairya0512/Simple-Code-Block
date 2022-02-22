@@ -1,0 +1,155 @@
+#include <simplecpp>
+//simplecpp is the package used to execute turtle based non-graphic/graphic programs.
+
+main_program
+{
+    turtleSim(); //we will use the turtle (the red triangle you saw in the animation) for this program.
+
+    right(180);
+    penUp();
+    forward(200);
+    penDown();
+    right(180); //by default, the turtle will be at the center but we need to start from the LHS to accomodate the name.
+
+    //D
+    right(90);
+    forward(100);
+    right(180);
+    wait(0.5);
+    forward(100);
+    wait(0.5);
+    penUp();
+    left(90);
+    forward(20);
+    wait(0.5);
+    right(180);
+    penDown();
+    forward(60);
+    wait(0.5);
+    right(90);
+    forward(100);
+    wait(0.5);
+    right(90);
+    forward(60);
+    wait(0.5);
+    //H
+    penUp();
+    right(90);
+    forward(100);
+    right(90);
+    forward(80);
+    wait(0.5);
+    penDown();
+    right(90);
+    forward(100);
+    wait(0.5);
+    right(180);
+    forward(50);
+    wait(0.5);
+    right(90);
+    forward(30);
+    left(90);
+    penUp();
+    forward(50);
+    wait(0.5);
+    penDown();
+    left(180);
+    forward(100);
+    wait(0.5);
+
+    //W
+    penUp();
+    right(180);
+    forward(100);
+    wait(0.5);
+    right(90);
+    forward(20);
+    right(80);
+    penDown();
+    forward(100);
+    wait(0.5);
+    left(150);
+    forward(50);
+    wait(0.5);
+    right(140);
+    forward(50);
+    wait(0.5);
+    left(150);
+    forward(100);
+    wait(0.5);
+
+    //A
+    penUp();
+    right(80);
+    wait(0.5);
+    forward(20);
+    penDown();
+    right(100);
+    forward(100);
+    wait(0.5);
+    right(180);
+    penUp();
+    forward(100);
+    wait(0.5);
+    right(150);
+    penDown();
+    forward(100);
+    wait(0.5);
+    right(180);
+    penUp();
+    forward(50);
+    left(65);
+    forward(25);
+    wait(0.5);
+    penDown();
+    right(175);
+    forward(25);
+    wait(0.5);
+
+    //N
+    penUp();
+    forward(30);
+    left(90);
+    forward(50);
+    wait(0.5);
+    right(180);
+    penDown();
+    forward(100);
+    wait(0.5);
+    right(180);
+    penUp();
+    forward(100);
+    wait(0.5);
+    right(150);
+    penDown();
+    forward(110);
+    wait(0.5);
+    left(150);
+    forward(100);
+    wait(0.5);
+
+    //I
+    penUp();
+    right(90);
+    forward(20);
+    penDown();
+    forward(40);
+    wait(0.5);
+    right(180);
+    penUp();
+    forward(20);
+    left(90);
+    penDown();
+    forward(100);
+    wait(0.5);
+    penUp();
+    right(90);
+    forward(20);
+    penDown();
+    right(180);
+    penDown();
+    forward(40);
+    wait(0.5);
+
+    wait(20); //will wait for 20 sec before it shuts the animation window and end the program.
+}
